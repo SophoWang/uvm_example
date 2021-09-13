@@ -1,0 +1,115 @@
+Command: /home/sopho/sopho/uvm_error/./simv +UVM_NO_RELNOTES +uvm_set_action=my_env,ERR_ID_ENV,UVM_ERROR,UVM_NO_ACTION +UVM_TIMEOUT=300 -l sim_4.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Sep 13 17:28 2021
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+----------------------------------------------------------------------
+report handler state dump
+
+
++-----------------+
+|   Verbosities   |
++-----------------+
+
+max verbosity level =         200
+*** verbosities by id
+
+*** verbosities by id and severity
+
++-------------+
+|   actions   |
++-------------+
+
+*** actions by severity
+UVM_INFO = DISPLAY 
+UVM_WARNING = DISPLAY 
+UVM_ERROR = DISPLAY COUNT 
+UVM_FATAL = DISPLAY EXIT 
+
+*** actions by id
+
+*** actions by id and severity
+UVM_ERROR:ERR_ID_ENV --> NO ACTION
+
++-------------+
+|    files    |
++-------------+
+
+default file handle =           0
+
+*** files by severity
+UVM_INFO =           0
+UVM_WARNING =           0
+UVM_ERROR =           0
+UVM_FATAL =           0
+
+*** files by id
+
+*** files by id and severity
+report server state
+
++-------------+
+|   counts    |
++-------------+
+
+max quit count =    25
+quit count =     0
+UVM_INFO :    0
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+----------------------------------------------------------------------
+UVM_INFO @ 0: reporter [RNTST] Running test ...
+UVM_INFO @ 0: reporter [TIMOUTSET] '+UVM_TIMEOUT=300' provided on the command line is being applied.
+UVM_INFO tb.sv(14) @ 0: my_env [my_env] start main phase!
+UVM_ERROR tb.sv(19) @ 10000: my_env [my_env] error cnt is 1
+UVM_ERROR tb.sv(19) @ 20000: my_env [my_env] error cnt is 3
+UVM_ERROR tb.sv(19) @ 30000: my_env [my_env] error cnt is 5
+UVM_ERROR tb.sv(19) @ 40000: my_env [my_env] error cnt is 7
+UVM_ERROR tb.sv(19) @ 50000: my_env [my_env] error cnt is 9
+UVM_ERROR tb.sv(19) @ 60000: my_env [my_env] error cnt is 11
+UVM_ERROR tb.sv(19) @ 70000: my_env [my_env] error cnt is 13
+UVM_ERROR tb.sv(19) @ 80000: my_env [my_env] error cnt is 15
+UVM_ERROR tb.sv(19) @ 90000: my_env [my_env] error cnt is 17
+UVM_ERROR tb.sv(19) @ 100000: my_env [my_env] error cnt is 19
+UVM_ERROR tb.sv(19) @ 110000: my_env [my_env] error cnt is 21
+UVM_ERROR tb.sv(19) @ 120000: my_env [my_env] error cnt is 23
+UVM_ERROR tb.sv(19) @ 130000: my_env [my_env] error cnt is 25
+UVM_ERROR tb.sv(19) @ 140000: my_env [my_env] error cnt is 27
+UVM_ERROR tb.sv(19) @ 150000: my_env [my_env] error cnt is 29
+UVM_ERROR tb.sv(19) @ 160000: my_env [my_env] error cnt is 31
+UVM_ERROR tb.sv(19) @ 170000: my_env [my_env] error cnt is 33
+UVM_ERROR tb.sv(19) @ 180000: my_env [my_env] error cnt is 35
+UVM_ERROR tb.sv(19) @ 190000: my_env [my_env] error cnt is 37
+UVM_ERROR tb.sv(19) @ 200000: my_env [my_env] error cnt is 39
+UVM_ERROR tb.sv(19) @ 210000: my_env [my_env] error cnt is 41
+UVM_ERROR tb.sv(19) @ 220000: my_env [my_env] error cnt is 43
+UVM_ERROR tb.sv(19) @ 230000: my_env [my_env] error cnt is 45
+UVM_ERROR tb.sv(19) @ 240000: my_env [my_env] error cnt is 47
+UVM_ERROR tb.sv(19) @ 250000: my_env [my_env] error cnt is 49
+
+--- UVM Report Summary ---
+
+Quit count reached!
+Quit count :    25 of    25
+** Report counts by severity
+UVM_INFO :    3
+UVM_WARNING :    0
+UVM_ERROR :   25
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TIMOUTSET]     1
+[my_env]    26
+$finish called from file "/home/edatools/synopsys/vcs-mx_vO-2018.09-SP2/etc/uvm/base/uvm_report_object.svh", line 292.
+$finish at simulation time               250000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250000 ps
+CPU Time:      0.300 seconds;       Data structure size:   0.2Mb
+Mon Sep 13 17:28:52 2021

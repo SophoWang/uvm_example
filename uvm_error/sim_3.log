@@ -1,0 +1,149 @@
+Command: /home/sopho/sopho/uvm_error/./simv +UVM_NO_RELNOTES +uvm_set_action=my_env,_ALL_,UVM_ERROR,UVM_DISPLAY +UVM_TIMEOUT=300 -l sim_3.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Sep 13 17:28 2021
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+----------------------------------------------------------------------
+report handler state dump
+
+
++-----------------+
+|   Verbosities   |
++-----------------+
+
+max verbosity level =         200
+*** verbosities by id
+
+*** verbosities by id and severity
+
++-------------+
+|   actions   |
++-------------+
+
+*** actions by severity
+UVM_INFO = DISPLAY 
+UVM_WARNING = DISPLAY 
+UVM_ERROR = DISPLAY 
+UVM_FATAL = DISPLAY EXIT 
+
+*** actions by id
+
+*** actions by id and severity
+
++-------------+
+|    files    |
++-------------+
+
+default file handle =           0
+
+*** files by severity
+UVM_INFO =           0
+UVM_WARNING =           0
+UVM_ERROR =           0
+UVM_FATAL =           0
+
+*** files by id
+
+*** files by id and severity
+report server state
+
++-------------+
+|   counts    |
++-------------+
+
+max quit count =    25
+quit count =     0
+UVM_INFO :    0
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+----------------------------------------------------------------------
+UVM_INFO @ 0: reporter [RNTST] Running test ...
+UVM_INFO @ 0: reporter [TIMOUTSET] '+UVM_TIMEOUT=300' provided on the command line is being applied.
+UVM_INFO tb.sv(14) @ 0: my_env [my_env] start main phase!
+UVM_ERROR tb.sv(19) @ 10000: my_env [my_env] error cnt is 1
+UVM_ERROR tb.sv(21) @ 10000: my_env [ERR_ID_ENV] error cnt is 2
+UVM_ERROR tb.sv(19) @ 20000: my_env [my_env] error cnt is 3
+UVM_ERROR tb.sv(21) @ 20000: my_env [ERR_ID_ENV] error cnt is 4
+UVM_ERROR tb.sv(19) @ 30000: my_env [my_env] error cnt is 5
+UVM_ERROR tb.sv(21) @ 30000: my_env [ERR_ID_ENV] error cnt is 6
+UVM_ERROR tb.sv(19) @ 40000: my_env [my_env] error cnt is 7
+UVM_ERROR tb.sv(21) @ 40000: my_env [ERR_ID_ENV] error cnt is 8
+UVM_ERROR tb.sv(19) @ 50000: my_env [my_env] error cnt is 9
+UVM_ERROR tb.sv(21) @ 50000: my_env [ERR_ID_ENV] error cnt is 10
+UVM_ERROR tb.sv(19) @ 60000: my_env [my_env] error cnt is 11
+UVM_ERROR tb.sv(21) @ 60000: my_env [ERR_ID_ENV] error cnt is 12
+UVM_ERROR tb.sv(19) @ 70000: my_env [my_env] error cnt is 13
+UVM_ERROR tb.sv(21) @ 70000: my_env [ERR_ID_ENV] error cnt is 14
+UVM_ERROR tb.sv(19) @ 80000: my_env [my_env] error cnt is 15
+UVM_ERROR tb.sv(21) @ 80000: my_env [ERR_ID_ENV] error cnt is 16
+UVM_ERROR tb.sv(19) @ 90000: my_env [my_env] error cnt is 17
+UVM_ERROR tb.sv(21) @ 90000: my_env [ERR_ID_ENV] error cnt is 18
+UVM_ERROR tb.sv(19) @ 100000: my_env [my_env] error cnt is 19
+UVM_ERROR tb.sv(21) @ 100000: my_env [ERR_ID_ENV] error cnt is 20
+UVM_ERROR tb.sv(19) @ 110000: my_env [my_env] error cnt is 21
+UVM_ERROR tb.sv(21) @ 110000: my_env [ERR_ID_ENV] error cnt is 22
+UVM_ERROR tb.sv(19) @ 120000: my_env [my_env] error cnt is 23
+UVM_ERROR tb.sv(21) @ 120000: my_env [ERR_ID_ENV] error cnt is 24
+UVM_ERROR tb.sv(19) @ 130000: my_env [my_env] error cnt is 25
+UVM_ERROR tb.sv(21) @ 130000: my_env [ERR_ID_ENV] error cnt is 26
+UVM_ERROR tb.sv(19) @ 140000: my_env [my_env] error cnt is 27
+UVM_ERROR tb.sv(21) @ 140000: my_env [ERR_ID_ENV] error cnt is 28
+UVM_ERROR tb.sv(19) @ 150000: my_env [my_env] error cnt is 29
+UVM_ERROR tb.sv(21) @ 150000: my_env [ERR_ID_ENV] error cnt is 30
+UVM_ERROR tb.sv(19) @ 160000: my_env [my_env] error cnt is 31
+UVM_ERROR tb.sv(21) @ 160000: my_env [ERR_ID_ENV] error cnt is 32
+UVM_ERROR tb.sv(19) @ 170000: my_env [my_env] error cnt is 33
+UVM_ERROR tb.sv(21) @ 170000: my_env [ERR_ID_ENV] error cnt is 34
+UVM_ERROR tb.sv(19) @ 180000: my_env [my_env] error cnt is 35
+UVM_ERROR tb.sv(21) @ 180000: my_env [ERR_ID_ENV] error cnt is 36
+UVM_ERROR tb.sv(19) @ 190000: my_env [my_env] error cnt is 37
+UVM_ERROR tb.sv(21) @ 190000: my_env [ERR_ID_ENV] error cnt is 38
+UVM_ERROR tb.sv(19) @ 200000: my_env [my_env] error cnt is 39
+UVM_ERROR tb.sv(21) @ 200000: my_env [ERR_ID_ENV] error cnt is 40
+UVM_ERROR tb.sv(19) @ 210000: my_env [my_env] error cnt is 41
+UVM_ERROR tb.sv(21) @ 210000: my_env [ERR_ID_ENV] error cnt is 42
+UVM_ERROR tb.sv(19) @ 220000: my_env [my_env] error cnt is 43
+UVM_ERROR tb.sv(21) @ 220000: my_env [ERR_ID_ENV] error cnt is 44
+UVM_ERROR tb.sv(19) @ 230000: my_env [my_env] error cnt is 45
+UVM_ERROR tb.sv(21) @ 230000: my_env [ERR_ID_ENV] error cnt is 46
+UVM_ERROR tb.sv(19) @ 240000: my_env [my_env] error cnt is 47
+UVM_ERROR tb.sv(21) @ 240000: my_env [ERR_ID_ENV] error cnt is 48
+UVM_ERROR tb.sv(19) @ 250000: my_env [my_env] error cnt is 49
+UVM_ERROR tb.sv(21) @ 250000: my_env [ERR_ID_ENV] error cnt is 50
+UVM_ERROR tb.sv(19) @ 260000: my_env [my_env] error cnt is 51
+UVM_ERROR tb.sv(21) @ 260000: my_env [ERR_ID_ENV] error cnt is 52
+UVM_ERROR tb.sv(19) @ 270000: my_env [my_env] error cnt is 53
+UVM_ERROR tb.sv(21) @ 270000: my_env [ERR_ID_ENV] error cnt is 54
+UVM_ERROR tb.sv(19) @ 280000: my_env [my_env] error cnt is 55
+UVM_ERROR tb.sv(21) @ 280000: my_env [ERR_ID_ENV] error cnt is 56
+UVM_ERROR tb.sv(19) @ 290000: my_env [my_env] error cnt is 57
+UVM_ERROR tb.sv(21) @ 290000: my_env [ERR_ID_ENV] error cnt is 58
+UVM_FATAL /home/edatools/synopsys/vcs-mx_vO-2018.09-SP2/etc/uvm/base/uvm_phase.svh(1272) @ 300000: reporter [PH_TIMEOUT] Explicit timeout of 300000 hit, indicating a probable testbench issue
+
+--- UVM Report Summary ---
+
+Quit count :     0 of    25
+** Report counts by severity
+UVM_INFO :    3
+UVM_WARNING :    0
+UVM_ERROR :   58
+UVM_FATAL :    1
+** Report counts by id
+[ERR_ID_ENV]    29
+[PH_TIMEOUT]     1
+[RNTST]     1
+[TIMOUTSET]     1
+[my_env]    30
+$finish called from file "/home/edatools/synopsys/vcs-mx_vO-2018.09-SP2/etc/uvm/base/uvm_report_object.svh", line 292.
+$finish at simulation time               300000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 300000 ps
+CPU Time:      0.300 seconds;       Data structure size:   0.2Mb
+Mon Sep 13 17:28:52 2021

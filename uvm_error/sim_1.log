@@ -1,0 +1,100 @@
+Command: /home/sopho/sopho/uvm_error/./simv +UVM_NO_RELNOTES +UVM_MAX_QUIT_COUNT=10,YES -l sim_1.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Sep 13 17:28 2021
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+----------------------------------------------------------------------
+report handler state dump
+
+
++-----------------+
+|   Verbosities   |
++-----------------+
+
+max verbosity level =         200
+*** verbosities by id
+
+*** verbosities by id and severity
+
++-------------+
+|   actions   |
++-------------+
+
+*** actions by severity
+UVM_INFO = DISPLAY 
+UVM_WARNING = DISPLAY 
+UVM_ERROR = DISPLAY COUNT 
+UVM_FATAL = DISPLAY EXIT 
+
+*** actions by id
+
+*** actions by id and severity
+
++-------------+
+|    files    |
++-------------+
+
+default file handle =           0
+
+*** files by severity
+UVM_INFO =           0
+UVM_WARNING =           0
+UVM_ERROR =           0
+UVM_FATAL =           0
+
+*** files by id
+
+*** files by id and severity
+report server state
+
++-------------+
+|   counts    |
++-------------+
+
+max quit count =    25
+quit count =     0
+UVM_INFO :    0
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+----------------------------------------------------------------------
+UVM_INFO @ 0: reporter [RNTST] Running test ...
+UVM_INFO @ 0: reporter [MAXQUITSET] '+UVM_MAX_QUIT_COUNT=10,YES' provided on the command line is being applied.
+UVM_INFO tb.sv(14) @ 0: my_env [my_env] start main phase!
+UVM_ERROR tb.sv(19) @ 10000: my_env [my_env] error cnt is 1
+UVM_ERROR tb.sv(21) @ 10000: my_env [ERR_ID_ENV] error cnt is 2
+UVM_ERROR tb.sv(19) @ 20000: my_env [my_env] error cnt is 3
+UVM_ERROR tb.sv(21) @ 20000: my_env [ERR_ID_ENV] error cnt is 4
+UVM_ERROR tb.sv(19) @ 30000: my_env [my_env] error cnt is 5
+UVM_ERROR tb.sv(21) @ 30000: my_env [ERR_ID_ENV] error cnt is 6
+UVM_ERROR tb.sv(19) @ 40000: my_env [my_env] error cnt is 7
+UVM_ERROR tb.sv(21) @ 40000: my_env [ERR_ID_ENV] error cnt is 8
+UVM_ERROR tb.sv(19) @ 50000: my_env [my_env] error cnt is 9
+UVM_ERROR tb.sv(21) @ 50000: my_env [ERR_ID_ENV] error cnt is 10
+
+--- UVM Report Summary ---
+
+Quit count reached!
+Quit count :    10 of    10
+** Report counts by severity
+UVM_INFO :    3
+UVM_WARNING :    0
+UVM_ERROR :   10
+UVM_FATAL :    0
+** Report counts by id
+[ERR_ID_ENV]     5
+[MAXQUITSET]     1
+[RNTST]     1
+[my_env]     6
+$finish called from file "/home/edatools/synopsys/vcs-mx_vO-2018.09-SP2/etc/uvm/base/uvm_report_object.svh", line 292.
+$finish at simulation time                50000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 50000 ps
+CPU Time:      0.310 seconds;       Data structure size:   0.2Mb
+Mon Sep 13 17:28:50 2021
